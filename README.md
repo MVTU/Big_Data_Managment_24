@@ -1,9 +1,16 @@
 # Big_Data_Managment_24
 
+## Starting 
+
+Review the Dockerfile.
+
+Build the image by running docker build . -t "pyspark-delta:0.0.1".
+
+Start the Docker container docker compose up -d.
 
 
 
-# Description
+## Project Description
 Analysing New York City Taxi Data with Spark /
 Please upload the files in one ZIP on Moodle by X / 
 Dataset / 
