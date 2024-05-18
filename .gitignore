@@ -3,4 +3,6 @@ __pycache__
 .ipython
 .jupyter
 .local
+.npm
+.ivy2
 .DS_Store
