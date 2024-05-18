@@ -18,14 +18,13 @@ Steps:
 
 3. Keep only the English documents,
 
-4. Preprocessing: the goal is to clean and preprocess the text to prepare it to represent it in vectors. It is a mandatory step in NLP projects to preprocess the text. You can have a look in this article to explore some of well-known preprocessing steps and find how they can be done in Spark Mlib: https://towardsdatascience.com/nlp-text-preprocessing-a-practical-guide-and-template-
-d80874676e79, required pre-processing
+4. Preprocessing: the goal is to clean and preprocess the text to prepare it to represent it in vectors. It is a mandatory step in NLP projects to preprocess the text. You can have a look in this article to explore some of well-known preprocessing steps and find how they can be done in Spark Mlib: https://towardsdatascience.com/nlp-text-preprocessing-a-practical-guide-and-template-d80874676e79, required pre-processing
 
     a. Remove stop words,
 
     b. Remove custom stop words: research papers will often frequently use words that don't actually contribute to the meaning and are not considered everyday stop words and should be removed to enhance the accuracy. Examples of custom stop words are ['doi', 'preprint', 'copyright', 'peer', 'reviewed', 'org', 'https', 'et', 'al', 'author', 'figure','rights', 'reserved', 'permission', 'used', 'using', 'biorxiv', 'medrxiv', 'license', 'fig', 'fig.', 'al.', 'Elsevier', 'PMC', 'CZI', 'www']
 
-    c. Remove Punctuation, use this Regex: '!()-[]{};:'"\,<>./?@#$%^&*_~' to remove it,
+    c. Remove Punctuation, use this Regex: `!()-[]{};:'"\,<>./?@#$%^&*_~` to remove it,
 
     d. Convert text to lower case,
 

@@ -6,7 +6,7 @@ As discussed in the FL lecture, various open-source FL frameworks offer diverse 
 
 2. FEDn: https://github.com/scaleoutsystems/fedn
 
-For FEDN either you use the studio by creating an account there (https://studio.scaleoutsystems.com/, https://www.youtube.com/watch?v=ZJtZov2YKRc&t=93s , https://www.scaleoutsystems.com/framework) or you can deploy the full framewrok.
+For FEDN either you use the studio by creating an account there (https://studio.scaleoutsystems.com/, https://www.youtube.com/watch?v=ZJtZov2YKRc&t=93s, https://www.scaleoutsystems.com/framework) or you can deploy the full framewrok.
 
 Then train a VGG16 model (please see the attached model implementation) over the CIFAR dataset (https://archive.org/download/data_20220122_202201/data.zip) using the FedAVG algorithm for 50 rounds with 5 clients (please choose the first 5 clients data client0 – client4, also use 3 epochs per round). Evaluate the model performance using the following metrics:
 

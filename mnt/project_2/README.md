@@ -6,7 +6,7 @@
 
 Same as project 1.
 
-# Development environment
+## Development environment
 
 For this project, you should reuse the same environment you used for the practice related to Spark and Spark Structured Streaming. Use the notebooks you find on Moodle, in particular
 
