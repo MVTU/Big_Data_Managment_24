@@ -7,5 +7,7 @@ __pycache__
 .ivy2
 .python_history
 .bash_history
+.lesshst
 .cache
 .DS_Store
+.flwr
